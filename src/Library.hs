@@ -35,5 +35,5 @@ esBisiesto anio = (esMultiploDe 400 anio || esMultiploDe 4 anio) && not (esMulti
 celciusToFahr :: Number -> Number
 celciusToFahr cel = cel * 1.8 + 32
 
-fahrToCelsius :: Integer -> Integer -- estoy teniendo problemas con los tipos de datos
+fahrToCelsius :: Integer -> Integer -- estoy teniendo problemas con los tipos de datos, demasiados para mi gusto
 fahrToCelsius far = far 
